@@ -1,0 +1,19 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; margin: 20px; display:flex; justify-content:center; }
+.app { width:100%; max-width:900px; }
+h1 { text-align:center; }
+.contact-form { display:flex; flex-direction:column; gap:10px; margin-bottom:12px; }
+.contact-form .row { display:flex; gap:8px; flex-wrap:wrap; }
+.field { flex:1; min-width:200px; display:flex; flex-direction:column; }
+input { padding:8px; border:1px solid #ccc; border-radius:4px; }
+button { padding:10px 14px; border:none; background:#1976d2; color:#fff; border-radius:6px; cursor:pointer; }
+.contact-list { border-top:1px solid #eee; margin-top:12px; }
+.contact-item { display:flex; justify-content:space-between; align-items:center; padding:12px 0; border-bottom:1px solid #f0f0f0; }
+.info .name { font-weight:600; }
+.err { color:#d32f2f; font-size:12px; }
+.pagination { display:flex; justify-content:center; gap:8px; margin-top:12px; }
+.delete { background:#e53935; padding:6px 10px; border-radius:6px; color:#fff; border:none; cursor:pointer; }
+@media (max-width:600px) {
+  .contact-form .row { flex-direction:column; }
+  .contact-item { flex-direction:column; gap:8px; align-items:flex-start; }
+}

@@ -19,7 +19,7 @@ A simple web-based   Contact Book Application   that allows users to   add, view
 -   Database (Optional):   MongoDB / MySQL / SQLite  
 
 ## 📂 Project Structure
-```
+
 
 contact-book/
 │── public/
@@ -33,7 +33,7 @@ contact-book/
 │── package.json
 │── README.md
 
-````
+
 
 ## ⚙️ Installation & Setup
 1. Clone the repository  
@@ -75,11 +75,4 @@ npm run build
 * ☁️ Connect with backend & database
 * 🔐 User authentication (login/signup)
 
-## 👩‍💻 Author
 
-* [Your Name](https://github.com/your-username)
-
-```
-
-Do you want me to also add   screenshots section   in this README so you can later paste your app’s images?
-```
